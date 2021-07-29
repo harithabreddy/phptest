@@ -17,7 +17,8 @@ $json_array['id']=$rec['id'];
 }  
   
 //built in PHP function to encode the data in to JSON format  
-//echo json_encode($json_data);  
+//echo json_encode($json_data); 
+//git testing 
 
 $json_data = json_encode($json_data);
 file_put_contents('results.json', $json_data);
